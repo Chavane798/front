@@ -1,5 +1,6 @@
 
 import Intro from "./component/intro";
+import Services from "./component/Services";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <h1>I'm digital</h1>
 
         <Intro/>
+
+        <Services/>
       </main>
     </div>
   );
